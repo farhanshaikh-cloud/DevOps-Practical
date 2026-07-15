@@ -24,36 +24,6 @@ Based on your command history, you've practiced the fundamental Docker image and
 | `docker rmi nginx:latest`                    | Removes the latest Nginx image.                                          |
 | `history`                                    | Displays the shell command history.                                      |
 
-### Mistakes in your history
-
-You entered a few incorrect commands:
-
-❌ `docker log 47c8b8bf`
-
-✅ Correct:
-
-```bash
-docker logs 47c8b8bf
-```
-
-❌ `docker containers`
-
-✅ Correct:
-
-```bash
-docker container ls
-```
-
-or
-
-```bash
-docker ps
-```
-
-❌ `docker container`
-
-This command is incomplete. Use one of the following:
-
 ```bash
 docker container ls
 docker container stop <container_id>

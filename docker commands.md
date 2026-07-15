@@ -22,7 +22,8 @@ Based on your command history, you've practiced the fundamental Docker image and
 | `docker rmi <image_id>`                      | Deletes an image using its Image ID.                                     |
 | `docker rmi nginx:1.31`                      | Removes the Nginx 1.31 image.                                            |
 | `docker rmi nginx:latest`                    | Removes the latest Nginx image.                                          |
-| `history`                                    | Displays the shell command history.                                      |
+| `history`                                    | Displays the shell command history.             
+| `docker system prune -a`                     | Delete all images
 
 ```bash
 docker container ls

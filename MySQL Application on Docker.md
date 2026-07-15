@@ -1,7 +1,3 @@
-There are two problems:
-
-1. **MySQL does not listen on port 80.** It listens on **3306**.
-2. **The official MySQL image requires a root password (or another initialization option).** If you don't provide one, the container starts and immediately exits.
 
 ### Step 1: Check if the container exited
 
